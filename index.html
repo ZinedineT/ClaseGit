@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>Perfil Profesional de Zinedine</title>
 </head>
@@ -20,39 +21,57 @@
 
     <!-- Bloque principal -->
     <h1>Zinedine - Desarrollador software</h1>
+    <!-- Redes sociales -->
+    <div class="text-center my-3">
+        <a href="#" class="mx-2 text-dark">
+          <i class="fab fa-facebook fa-2x"></i>
+        </a>
+        <a href="#" class="mx-2 text-dark">
+          <i class="fab fa-instagram fa-2x"></i>
+        </a>
+        <a href="#" class="mx-2 text-dark">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+    </div>
+  
     <div class="primer-bloque">
         
-        <h2>Descripción Profesional</h2>
-        <p>
-            Soy Zinedine, un apasionado desarrollador de software con una sólida formación en ingeniería de software. 
-            Me especializo en el desarrollo de aplicaciones web, adaptándome rápidamente a nuevas tecnologías y metodologías ágiles. 
-            Mi enfoque es mejorar la eficiencia y productividad mediante soluciones innovadoras y de alta calidad.
-        </p>
+        <div class="card-descripcion">
+          <h2>Descripción Profesional</h2>
+          <p>
+              Soy Zinedine, un apasionado desarrollador de software con una sólida formación en ingeniería de software. 
+              Me especializo en el desarrollo de aplicaciones web, adaptándome rápidamente a nuevas tecnologías y metodologías ágiles. 
+              Mi enfoque es mejorar la eficiencia y productividad mediante soluciones innovadoras y de alta calidad.
+          </p>
+        </div>
 
         <!-- Experiencia laboral -->
-        <h2>Experiencia Profesional</h2>
-        <div class="list-group">
-            <a href="#" class="list-group-item list-group-item-action">Cistcorfact - Desarrollador Junior</a>
-            <p>
-                En Cistcorfact, trabajé como desarrollador junior, creando aplicaciones web personalizadas para diversos departamentos. 
-                Logré aumentar la productividad del equipo al implementar soluciones de automatización y mejorar la interfaz de usuario de las plataformas existentes.
-            </p>
+        <div class="card-descripcion">
+          <h2>Experiencia Profesional</h2>
+          <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action">Cistcorfact - Desarrollador Junior</a>
+              <p>
+                  En Cistcorfact, trabajé como desarrollador junior, creando aplicaciones web personalizadas para diversos departamentos. 
+                  Logré aumentar la productividad del equipo al implementar soluciones de automatización y mejorar la interfaz de usuario de las plataformas existentes.
+              </p>
 
-            <a href="#" class="list-group-item list-group-item-action">Kingcode - Desarrollador Web</a>
-            <p>
-                En Kingcode, lideré el desarrollo de proyectos innovadores, como la creación de un sistema de detección de sentimientos en tiempo real, 
-                que fue reconocido por su impacto en la mejora de la experiencia del usuario.
-            </p>
+              <a href="#" class="list-group-item list-group-item-action">Kingcode - Desarrollador Web</a>
+              <p>
+                  En Kingcode, lideré el desarrollo de proyectos innovadores, como la creación de un sistema de detección de sentimientos en tiempo real, 
+                  que fue reconocido por su impacto en la mejora de la experiencia del usuario.
+              </p>
 
-            <a href="#" class="list-group-item list-group-item-action disabled">Senati Dev - Desarrollador Web</a>
-            <p>
-                Actualmente trabajo en Senati, donde gestiono el mantenimiento de la página institucional y colaboro en la implementación de nuevas funcionalidades 
-                que mejoran la interacción con los usuarios y optimizan la usabilidad de la plataforma.
-            </p>
+              <a href="#" class="list-group-item list-group-item-action disabled">Senati Dev - Desarrollador Web</a>
+              <p>
+                  Actualmente trabajo en Senati, donde gestiono el mantenimiento de la página institucional y colaboro en la implementación de nuevas funcionalidades 
+                  que mejoran la interacción con los usuarios y optimizan la usabilidad de la plataforma.
+              </p>
+          </div>
         </div>
 
         <!-- Cursos y Talleres -->
-        <h2>Cursos y Talleres Relevantes</h2>
+        <div class="card-descripcion">
+                  <h2>Cursos y Talleres Relevantes</h2>
         <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
@@ -62,7 +81,7 @@
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <p>This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the , though the transition does limit overflow.</p>
                 </div>
               </div>
             </div>
@@ -74,7 +93,7 @@
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <p>This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</p>
                 </div>
               </div>
             </div>
@@ -86,13 +105,15 @@
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <p>This is the third item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
         <!-- Habilidades adicionales -->
+      <div class="card-descripcion">
         <h2>Habilidades Técnicas</h2>
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -128,7 +149,8 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-          </div>
+        </div>
+</div>
 
     </div>
 </body>

@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #333;
 }
 /* From Uiverse.io by Pravins01 */ 
 .card {
@@ -82,14 +83,14 @@ body {
 .primer-bloque {
     max-width: 800px;
     margin: 30px auto;
-    background-color: #fff;
+    background-color: #333;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
-    color: #333;
+h1 {
+    color: #ffffff;
 }
 
 h1 {
@@ -98,6 +99,7 @@ h1 {
 }
 
 h2 {
+    color: #333;
     margin-top: 20px;
     text-align: center;
 }
@@ -105,8 +107,11 @@ h2 {
 p {
     font-size: 1.1em;
     color: #666;
+    text-align: justify;
 }
-
+i {
+    color: #1d5b9e;
+}
 ul {
     list-style-type: none;
     padding-left: 0;
@@ -134,4 +139,27 @@ ul li {
     background-color: #007bff;
     color: white;
 }
-/* FONT */
+/* Descripciones */
+.card-descripcion {
+    background-color: #f8f9fa; /* gris claro */
+    border: 1px solid #dee2e6;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-descripcion h2 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #343a40;
+}
+
+.card-descripcion p {
+    font-size: 1.1rem;
+    color: #495057;
+    line-height: 1.6;
+}
+
